@@ -37,6 +37,9 @@ footer {
 .third-line {
   display: none;
 }
+.accessory {
+  width: 100%;
+}
 
 @media screen and (max-width: 48rem) {
   .first-line {
