@@ -1,3 +1,8 @@
+.navbar {
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+
 .btn-outline-success {
   color: blueviolet;
   border-color: blueviolet;
@@ -25,13 +30,15 @@ footer {
 }
 
 .nav-link {
+  font-family: Georgia, serif;
+  font-size: 20px;
+}
+.main-title {
+  font-family: Georgia, serif;
   font-size: 30px;
 }
 .navbar-light .navbar-brand {
   color: #bb8fce;
-}
-.main-title {
-  font-family: Georgia, serif;
 }
 
 .third-line {
@@ -54,4 +61,66 @@ footer {
     display: block;
     text-align: center;
   }
+}
+
+.bg-light {
+  background-color: #d4badf;
+}
+
+.footer-title {
+  font-size: 25px;
+  color: #bb8fce;
+}
+
+.btn-primary {
+  background-color: rgb(243, 215, 180);
+  border-color: rgb(243, 215, 180);
+  color: black;
+  font-weight: bold;
+}
+.btn-primary:hover {
+  color: black;
+  background-color: rgb(197, 137, 63);
+  border-color: rgb(197, 137, 63);
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+.introduce-margin {
+  margin-bottom: 10px;
+}
+.intro-box {
+  margin-top: 10px;
+}
+.king-nav {
+  background-color: rgb(245, 232, 212);
+
+  position: sticky;
+  top: 1px;
+  opacity: 0.5;
+  z-index: 9999;
+}
+
+.nav-options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.option-bar {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-bottom: 0px;
+}
+.option-bar a {
+  text-decoration: none;
+  color: #bb8fce;
+  font-weight: 800;
+}
+
+.option-bar a:hover {
+  color: #d4badf;
+}
+.option-bar li {
+  padding: 0.5rem 1rem;
 }
